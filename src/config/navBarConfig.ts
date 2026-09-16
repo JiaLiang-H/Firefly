@@ -98,19 +98,19 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 
 	// 自定义导航栏链接
 	// 想加自己的链接时，取消下面的注释，改成你的名称和地址
-	// links.push({
-	// 	name: "链接",
-	// 	url: "#",
-	// 	icon: "material-symbols:link",
-	// 	children: [
-	// 		{
-	// 			name: "GitHub",
-	// 			url: "https://github.com/JiaLiang-H",
-	// 			external: true,
-	// 			icon: "fa7-brands:github",
-	// 		},
-	// 	],
-	// });
+	links.push({
+		name: "链接",
+		url: "#",
+		icon: "material-symbols:link",
+		children: [
+			{
+				name: "GitHub",
+				url: "https://github.com/JiaLiang-H",
+				external: true,
+				icon: "fa7-brands:github",
+			},
+		],
+	});
 
 	return { links } as NavBarConfig;
 };
