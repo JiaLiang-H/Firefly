@@ -67,22 +67,22 @@ export const booknavConfig: BooknavGroup[] = [
 			},
 		],
 	},
-	{
-		id: "opensource",
-		name: "项目",
-		icon: "material-symbols:code-rounded",
-		desc: "好用的开源项目",
-		weight: 90,
-		items: [
-			{
-				title: "Firefly",
-				url: "https://github.com/CuteLeaf/Firefly",
-				desc: "清晰美观的 Astro 个人博客主题模板",
-				icon: "/favicon/firefly-32.png",
-				weight: 10,
-			},
-		],
-	},
+	// 想加自己的项目展示时，取消下面的注释
+	// {
+	// 	id: "opensource",
+	// 	name: "项目",
+	// 	icon: "material-symbols:code-rounded",
+	// 	desc: "好用的开源项目",
+	// 	weight: 90,
+	// 	items: [
+	// 		{
+	// 			title: "我的项目",
+	// 			url: "https://github.com/JiaLiang-H/xxx",
+	// 			desc: "项目简介",
+	// 			weight: 10,
+	// 		},
+	// 	],
+	// },
 	{
 		id: "design",
 		name: "设计",
@@ -131,26 +131,20 @@ export const booknavConfig: BooknavGroup[] = [
 			},
 		],
 	},
-	{
-		id: "resources",
-		name: "资源",
-		icon: "material-symbols:auto-stories-outline-rounded",
-		desc: "文档、教程与阅读",
-		weight: 70,
-		items: [
-			{
-				title: "Firefly Docs",
-				url: "https://docs-firefly.cuteleaf.cn",
-				desc: "Firefly 主题模板文档",
-				icon: "https://docs-firefly.cuteleaf.cn/logo.png",
-				weight: 10,
-			},
-			{
-				title: "夏夜流萤",
-				url: "https://blog.cuteleaf.cn",
-				desc: "飞萤之火自无梦的长夜亮起",
-				weight: 9,
-			},
-		],
-	},
+	// 想加自己的常用资源站时，取消下面的注释
+	// {
+	// 	id: "resources",
+	// 	name: "资源",
+	// 	icon: "material-symbols:auto-stories-outline-rounded",
+	// 	desc: "文档、教程与阅读",
+	// 	weight: 70,
+	// 	items: [
+	// 		{
+	// 			title: "某个文档站",
+	// 			url: "https://example.com",
+	// 			desc: "站点简介",
+	// 			weight: 10,
+	// 		},
+	// 	],
+	// },
 ];

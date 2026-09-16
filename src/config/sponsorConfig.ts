@@ -12,7 +12,7 @@ export const sponsorConfig: SponsorConfig = {
 		"您的打赏将用于服务器维护、内容创作和功能开发，帮助我持续提供优质内容。",
 
 	// 是否显示打赏者列表
-	showSponsorsList: true,
+	showSponsorsList: false,
 
 	// 是否显示评论区，需要先在commentConfig.ts启用评论系统
 	showComment: true,
@@ -21,6 +21,8 @@ export const sponsorConfig: SponsorConfig = {
 	showButtonInPost: true,
 
 	// 打赏方式列表
+	// ⚠️ 下面两个二维码图片是模板自带的、属于原作者的收款码，已全部停用（enabled: false）。
+	// 想开通打赏：把自己的收款码换成 public/assets/images/sponsor/ 下的同名文件，再把 enabled 改回 true
 	methods: [
 		{
 			name: "支付宝",
@@ -29,7 +31,7 @@ export const sponsorConfig: SponsorConfig = {
 			qrCode: "/assets/images/sponsor/alipay.png",
 			link: "",
 			description: "使用 支付宝 扫码打赏",
-			enabled: true,
+			enabled: false,
 		},
 		{
 			name: "微信",
@@ -37,43 +39,18 @@ export const sponsorConfig: SponsorConfig = {
 			qrCode: "/assets/images/sponsor/wechat.png",
 			link: "",
 			description: "使用 微信 扫码打赏",
-			enabled: true,
-		},
-		{
-			name: "ko-fi",
-			icon: "simple-icons:kofi",
-			qrCode: "",
-			link: "https://ko-fi.com/cuteleaf",
-			description: "Buy a Coffee for Firefly",
-			enabled: true,
-		},
-		{
-			name: "爱发电",
-			icon: "simple-icons:afdian",
-			qrCode: "",
-			link: "https://ifdian.net/a/cuteleaf",
-			description: "通过 爱发电 进行打赏",
-			enabled: true,
+			enabled: false,
 		},
 	],
 
 	// 打赏者列表（可选）
+	// 原模板的示例数据已清除，想展示打赏者时按下面格式添
 	sponsors: [
-		// 示例：已实名打赏者
-		{
-			name: "夏叶",
-			avatar:
-				"https://weavatar.com/avatar/d252655d40d6874417a720bad0a6c5f77f8f6a1fd2f882f8f338402dc37e4190?s=640",
-			amount: "¥50",
-			date: "2025-10-01",
-		},
-
-		// 示例：匿名打赏者
-		{
-			name: "匿名用户",
-			// avatar: "",
-			amount: "¥20",
-			date: "2025-10-01",
-		},
+		// {
+		// 	name: "打赏者名字",
+		// 	avatar: "https://头像地址",
+		// 	amount: "¥50",
+		// 	date: "2026-01-01",
+		// },
 	],
 };

@@ -73,17 +73,14 @@ export const backgroundWallpaper: BackgroundWallpaperConfig = {
 			// 是否启用主页横幅文字
 			enable: true,
 			// 主页横幅主标题
-			title: "Lovely firefly!",
+			title: "一个准工程师的技术、哲学与生活随笔!",
 			// 主页横幅主标题字体大小
-			titleSize: "4.5rem",
+			titleSize: "2.0rem",
 			// 主页横幅副标题
 			subtitle: [
-				"In Reddened Chrysalis, I Once Rest",
-				"From Shattered Sky, I Free Fall",
-				"Amidst Silenced Stars, I Deep Sleep",
-				"Upon Lighted Fyrefly, I Soon Gaze",
-				"From Undreamt Night, I Thence Shine",
-				"In Finalized Morrow, I Full Bloom",
+				"Don’t give in to desire！",
+				"Thinking more",
+				"Life is a journey, not a destination",
 			],
 			// 主页横幅副标题字体大小
 			subtitleSize: "1.5rem",
@@ -107,24 +104,25 @@ export const backgroundWallpaper: BackgroundWallpaperConfig = {
 				{
 					name: "GitHub",
 					icon: "fa7-brands:github",
-					url: "https://github.com/CuteLeaf/Firefly",
+					url: "https://github.com/JiaLiang-H",
 					showName: true,
 				},
 				{
 					name: "Email",
 					icon: "fa7-solid:envelope",
-					url: "mailto:xiaye@msn.com",
-				},
-				{
-					name: "Sponsor",
-					icon: "material-symbols:favorite",
-					url: "https://blog.cuteleaf.cn/sponsor/",
+					url: "mailto:1967227358@qq.com",
 				},
 				{
 					name: "RSS",
 					icon: "fa7-solid:rss",
 					url: "/rss/",
 				},
+				// 想加打赏图标时取消注释（需先在 sponsorConfig.ts 里换成自己的收款码）
+				// {
+				// 	name: "Sponsor",
+				// 	icon: "material-symbols:favorite",
+				// 	url: "/sponsor/",
+				// },
 			],
 		},
 		// 壁纸轮播配置，横幅壁纸和全屏壁纸共享，仅在配置多张图片时生效
